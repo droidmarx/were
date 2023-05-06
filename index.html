@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.svg">
+  
+  <!-- CDN do FontAwesome -->
+  <script src="https://kit.fontawesome.com/782e4cfd7d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- fonte google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- meu css -->
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <title>Base Apparel | By Marx</title>
+
+</head>
+<body>
+
+  <article>
+    
+    <img  class="logo" src="./images/logo.svg" alt="logo">
+    <img class="imgmobile" src="./images/hero-mobile.jpg" alt="hero">
+    
+
+
+    <h1>We're<h1>
+    <h2>chegando<br>em breve</h2>
+    
+    <p>  Olá colegas compradores! No momento, estamos construindo nossa nova loja de moda. Adicione seu e-mail abaixo para ficar atualizado com os anúncios e nossas ofertas de lançamento.</p>
+      
+      <container class="container">
+        <input placeholder="Type your email here" type="email" name="email" id="email">
+        <button type="submit" onclick="validarEmail()"><i class="fas fa-angle-right"></i></button>
+        <img class="erro" style="display: none;" src="./images/icon-error.svg" alt="erro">
+      </container>
+      
+      <p class="emailvalido" style="display: none;">Por favor forneça um email válido</p>
+      <p class="enviado" style="display: none;">E-mail eviado!</p>
+      
+  </article>
+
+  <img class="img" src="./images/hero-desktop.jpg" alt="hero">
+
+  <script src="./script.js"></script>
+</body>
+</html>
