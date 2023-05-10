@@ -6,12 +6,12 @@ function validarEmail() {
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (emailPattern.test(emailInput.value)) {
-    mensagemEmailValido.style.display = "none";
-    mensagemEnviado.style.display = "block";
-    mensagemErro.style.display = "none";
+    mensagemEmailValido.style.opacity = "0";
+    mensagemEnviado.style.opacity = "1";
+    mensagemErro.style.opacity = "0";
   } else {
-    mensagemEmailValido.style.display = "block";
-    mensagemErro.style.display = "block";
-    mensagemEnviado.style.display = "none";
+    mensagemEmailValido.style.opacity = "1";
+    mensagemErro.style.opacity = "1";
+    mensagemEnviado.style.opacity = "0";
   }
 }

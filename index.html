@@ -26,7 +26,9 @@
   <article>
     
     <img  class="logo" src="./images/logo.svg" alt="logo">
-    <img class="imgmobile" src="./images/hero-mobile.jpg" alt="hero">
+    <div class="imgmobile">
+      <img class="imgmobilee" src="./images/hero-mobile.jpg" alt="hero">
+    </div>
     
 
 
@@ -38,15 +40,16 @@
       <container class="container">
         <input placeholder="Digite seu e-mail aqui" type="email" name="email" id="email">
         <button type="submit" onclick="validarEmail()"><i class="fas fa-angle-right"></i></button>
-        <img class="erro" style="display: none;" src="./images/icon-error.svg" alt="erro">
+        <img class="erro" style="opacity: 0;" src="./images/icon-error.svg" alt="erro">
       </container>
       
   <div class="validar">
-      <p class="emailvalido" style="display: none;">Por favor forneça um email válido</p>
-      <p class="enviado" style="display: none;">E-mail eviado!</p>
+      <p class="emailvalido" style="opacity: 0;">Por favor forneça um email válido</p>
+      <p class="enviado" style="opacity: 0;">E-mail eviado!</p>
   </div>    
 
   </article>
+
 
   <img class="img" src="./images/hero-desktop.jpg" alt="hero">
 
