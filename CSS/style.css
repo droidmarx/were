@@ -16,13 +16,8 @@ body {
   gap: 10px;
   font-family: josefin sans;
   font-size: 1rem;
-  background: rgb(255, 231, 231);
-  background: linear-gradient(
-    135deg,
-    rgba(255, 231, 231, 1) 0%,
-    rgba(255, 227, 227, 1) 25%,
-    rgba(255, 255, 255, 1) 58%
-  );
+  background-image: url(..//images/bg-pattern-desktop.svg);
+  background-size: 70%;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -96,22 +91,17 @@ button {
   color: #fff;
   background: linear-gradient(
     135deg,
-    rgb(183, 134, 134) 0%,
+    hsl(0, 25%, 62%) 0%,
     rgb(255, 183, 183) 46%,
     rgb(255, 194, 194) 72%
   );
   box-shadow: 0 2px 4px rgba(202, 131, 131, 0.8);
   border: none;
-  transition: background 1s ease;
 }
 
 button:hover {
-  background: linear-gradient(
-    135deg,
-    rgb(183, 134, 134) 20%,
-    rgb(255, 183, 183) 66%,
-    rgb(255, 194, 194) 92%
-  );
+  background: #fff;
+  color: #f96262;
 }
 
 .imgmobilee {
